@@ -1,0 +1,42 @@
+# byte code and build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# LaTeX build products (the manuscript lives in a separate tree)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+!logs/*.log
+
+# EDA. The generated scripts, netlists, reports and test vectors are kept:
+# in a reproduction repository they are the evidence behind Table I and the
+# bit-true check, and they are small and readable. Only opaque binaries and
+# third-party files are excluded.
+#
+# Icarus compiled simulations: binaries, one command to rebuild, nothing to read
+tb/*.vvp
+*.vcd
+# PDK liberty: SkyWater/Google, not ours, tens of MB, fetch from the sky130 PDK
+synth/*.lib
+
+# editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# working documents stay local, by convention
+docs/
+
+# per-experiment diagnostic figures stay local
+figures/E?/
+
+# run records: every execution writes results/E{n}/<runstamp>/ locally,
+# and those directories are not published here
+results/

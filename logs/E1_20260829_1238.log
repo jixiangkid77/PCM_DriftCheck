@@ -1,0 +1,33 @@
+[2026-08-29 12:38:31 JST] INFO E1 run 20260829_1238 starting (smoke=True, phases=['A', 'B'], enc=['a', 'b', 'c'], backend=numpy)
+[2026-08-29 12:38:31 JST] INFO run dir: D:\Project\PCM_DriftCheck\results\E1\20260829_1238
+[2026-08-29 12:38:31 JST] INFO selftest PASS: max |r(t0)| = 1.776e-15 (< 1e-9, spread off), min over cases of max |r(1e8)| = 3.764e-01 (> 1e-4)
+[2026-08-29 12:38:31 JST] INFO phase A: enc=a sigma_nu=0.02 m=16 done (theta off/on = 0.1879 / 0.1879)
+[2026-08-29 12:38:31 JST] INFO phase A: enc=a finished in 0.2 s; residuals_a.npz written (0.1 MB)
+[2026-08-29 12:38:31 JST] INFO phase A: enc=b sigma_nu=0.02 m=16 done (theta off/on = 0.07004 / 0.07004)
+[2026-08-29 12:38:31 JST] INFO phase A: enc=b finished in 0.1 s; residuals_b.npz written (0.1 MB)
+[2026-08-29 12:38:32 JST] INFO phase A: enc=c sigma_nu=0.02 m=16 done (theta off/on = 0.04902 / 0.04902)
+[2026-08-29 12:38:32 JST] INFO phase A: enc=c finished in 0.1 s; residuals_c.npz written (0.1 MB)
+[2026-08-29 12:38:37 JST] INFO figure written: fig1_fpr_vs_t_20260829_1238.pdf/.png (m=16)
+[2026-08-29 12:38:38 JST] INFO figure written: pflip_vs_t_20260829_1238.pdf/.png
+[2026-08-29 12:38:38 JST] INFO written: c2_slope_ranking.csv (6 rows)
+[2026-08-29 12:38:38 JST] INFO phase B: enc=a cond=sa0 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=a cond=sa1 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=a cond=soft d=0.10 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=a cond=soft d=0.25 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=a cond=soft d=0.50 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=a finished in 0.2 s
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b cond=sa0 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b cond=sa1 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b cond=soft d=0.10 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b cond=soft d=0.25 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b cond=soft d=0.50 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=b finished in 0.3 s
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c cond=sa0 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c cond=sa1 d=0.00 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c cond=soft d=0.10 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c cond=soft d=0.25 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c cond=soft d=0.50 done
+[2026-08-29 12:38:39 JST] INFO phase B: enc=c finished in 0.4 s
+[2026-08-29 12:38:39 JST] INFO written: summary.csv (180 rows)
+[2026-08-29 12:38:39 JST] INFO written: thresholds.csv (6 rows)
+[2026-08-29 12:38:39 JST] INFO E1 run 20260829_1238 complete in 8.9 s; every number above traces to D:\Project\PCM_DriftCheck\results\E1\20260829_1238

@@ -1,0 +1,21 @@
+[2026-08-30 03:47:06 JST] INFO E5 run 20260830_0347_smoke starting (smoke=True)
+[2026-08-30 03:47:07 JST] INFO model selftests PASS: {'cell': '2.44e-03', 'fault': '2.68e-03', 'signflip': '1.29e-02', 'pflip': '1.39e-02'} (tol 2.00e-02)
+[2026-08-30 03:47:08 JST] INFO audit enc=a kind=soft_abs: |diff| = 4.02e-15
+[2026-08-30 03:47:08 JST] INFO audit enc=a kind=sign_flip: |diff| = 1.86e-15
+[2026-08-30 03:47:08 JST] INFO audit enc=b kind=soft_abs: |diff| = 1.26e-17
+[2026-08-30 03:47:08 JST] INFO audit enc=b kind=sign_flip: |diff| = 2.78e-17
+[2026-08-30 03:47:08 JST] INFO audit enc=c kind=soft_abs: |diff| = 1.01e-16
+[2026-08-30 03:47:08 JST] INFO audit enc=c kind=sign_flip: |diff| = 3.82e-17
+[2026-08-30 03:47:08 JST] INFO shift-identity audit PASS: worst |diff| = 4.02e-15 over all rules
+[2026-08-30 03:47:08 JST] INFO enc a pools+calibration done (0.9 s), FPR range [0.0014, 0.0100]
+[2026-08-30 03:47:09 JST] INFO enc a fault classes done (1.1 s total)
+[2026-08-30 03:47:10 JST] INFO enc b pools+calibration done (1.8 s), FPR range [0.0018, 0.0100]
+[2026-08-30 03:47:14 JST] INFO enc b fault classes done (5.2 s total)
+[2026-08-30 03:47:14 JST] INFO enc c pools+calibration done (0.0 s), FPR range [0.0100, 0.0100]
+[2026-08-30 03:47:14 JST] INFO enc c fault classes done (0.0 s total)
+[2026-08-30 03:47:14 JST] INFO flip sigma=0.02: t_c model 86.73, empirical 39.81 (0.3 s)
+[2026-08-30 03:47:14 JST] INFO verdict p1 (a/b, 30 points): median 0.0108 / p90 0.0217 / max 0.0240 / >tol 0
+[2026-08-30 03:47:14 JST] INFO verdict pflip (countable points, z test vs ref-ensemble SE): 2 within z<=2.5, 0 outside, max z 0.27
+[2026-08-30 03:47:14 JST] INFO written: p1_by_class.csv (45 rows), flip_rate.csv (5 rows), t_c.json
+[2026-08-30 03:47:17 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E5
+[2026-08-30 03:47:17 JST] INFO E5 run 20260830_0347_smoke complete in 10.4 s; every number above traces to D:\Project\PCM_DriftCheck\results\E5\20260830_0347_smoke

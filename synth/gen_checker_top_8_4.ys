@@ -1,0 +1,9 @@
+read_verilog rtl/drift_checker.v rtl/pwl_band.v rtl/checker_top.v
+chparam -set BY 8 -set LOGM 4 checker_top
+hierarchy -top checker_top
+synth -top checker_top
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt_clean
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr synth/out/checker_top_8_4.v

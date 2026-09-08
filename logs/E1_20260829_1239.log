@@ -1,0 +1,66 @@
+[2026-08-29 12:39:50 JST] INFO E1 run 20260829_1239 starting (smoke=False, phases=['A', 'B'], enc=['a', 'b', 'c'], backend=numpy)
+[2026-08-29 12:39:50 JST] INFO run dir: D:\Project\PCM_DriftCheck\results\E1\20260829_1239
+[2026-08-29 12:39:51 JST] INFO selftest PASS: max |r(t0)| = 1.776e-15 (< 1e-9, spread off), min over cases of max |r(1e8)| = 3.764e-01 (> 1e-4)
+[2026-08-29 12:39:51 JST] INFO phase A: enc=a sigma_nu=0.005 m=8 done (theta off/on = 0.1842 / 0.1842)
+[2026-08-29 12:39:52 JST] INFO phase A: enc=a sigma_nu=0.005 m=16 done (theta off/on = 0.1935 / 0.1935)
+[2026-08-29 12:39:52 JST] INFO phase A: enc=a sigma_nu=0.005 m=32 done (theta off/on = 0.2059 / 0.2059)
+[2026-08-29 12:39:53 JST] INFO phase A: enc=a sigma_nu=0.01 m=8 done (theta off/on = 0.1822 / 0.1822)
+[2026-08-29 12:39:54 JST] INFO phase A: enc=a sigma_nu=0.01 m=16 done (theta off/on = 0.1829 / 0.1829)
+[2026-08-29 12:39:54 JST] INFO phase A: enc=a sigma_nu=0.01 m=32 done (theta off/on = 0.1724 / 0.1724)
+[2026-08-29 12:39:55 JST] INFO phase A: enc=a sigma_nu=0.02 m=8 done (theta off/on = 0.1834 / 0.1834)
+[2026-08-29 12:39:55 JST] INFO phase A: enc=a sigma_nu=0.02 m=16 done (theta off/on = 0.1791 / 0.1791)
+[2026-08-29 12:39:56 JST] INFO phase A: enc=a sigma_nu=0.02 m=32 done (theta off/on = 0.1561 / 0.1561)
+[2026-08-29 12:39:57 JST] INFO phase A: enc=a sigma_nu=0.04 m=8 done (theta off/on = 0.1882 / 0.1882)
+[2026-08-29 12:39:57 JST] INFO phase A: enc=a sigma_nu=0.04 m=16 done (theta off/on = 0.1812 / 0.1812)
+[2026-08-29 12:39:58 JST] INFO phase A: enc=a sigma_nu=0.04 m=32 done (theta off/on = 0.1691 / 0.1691)
+[2026-08-29 12:40:06 JST] INFO phase A: enc=a finished in 15.7 s; residuals_a.npz written (137.7 MB)
+[2026-08-29 12:40:08 JST] INFO phase A: enc=b sigma_nu=0.005 m=8 done (theta off/on = 0.09478 / 0.09478)
+[2026-08-29 12:40:09 JST] INFO phase A: enc=b sigma_nu=0.005 m=16 done (theta off/on = 0.07227 / 0.07227)
+[2026-08-29 12:40:10 JST] INFO phase A: enc=b sigma_nu=0.005 m=32 done (theta off/on = 0.05282 / 0.05282)
+[2026-08-29 12:40:12 JST] INFO phase A: enc=b sigma_nu=0.01 m=8 done (theta off/on = 0.09119 / 0.09119)
+[2026-08-29 12:40:13 JST] INFO phase A: enc=b sigma_nu=0.01 m=16 done (theta off/on = 0.06844 / 0.06844)
+[2026-08-29 12:40:15 JST] INFO phase A: enc=b sigma_nu=0.01 m=32 done (theta off/on = 0.05462 / 0.05462)
+[2026-08-29 12:40:17 JST] INFO phase A: enc=b sigma_nu=0.02 m=8 done (theta off/on = 0.09279 / 0.09279)
+[2026-08-29 12:40:18 JST] INFO phase A: enc=b sigma_nu=0.02 m=16 done (theta off/on = 0.07542 / 0.07542)
+[2026-08-29 12:40:19 JST] INFO phase A: enc=b sigma_nu=0.02 m=32 done (theta off/on = 0.05573 / 0.05573)
+[2026-08-29 12:40:21 JST] INFO phase A: enc=b sigma_nu=0.04 m=8 done (theta off/on = 0.08765 / 0.08765)
+[2026-08-29 12:40:22 JST] INFO phase A: enc=b sigma_nu=0.04 m=16 done (theta off/on = 0.06385 / 0.06385)
+[2026-08-29 12:40:23 JST] INFO phase A: enc=b sigma_nu=0.04 m=32 done (theta off/on = 0.05627 / 0.05627)
+[2026-08-29 12:40:35 JST] INFO phase A: enc=b finished in 28.9 s; residuals_b.npz written (142.4 MB)
+[2026-08-29 12:40:37 JST] INFO phase A: enc=c sigma_nu=0.005 m=8 done (theta off/on = 0.09531 / 0.09531)
+[2026-08-29 12:40:38 JST] INFO phase A: enc=c sigma_nu=0.005 m=16 done (theta off/on = 0.08325 / 0.08325)
+[2026-08-29 12:40:40 JST] INFO phase A: enc=c sigma_nu=0.005 m=32 done (theta off/on = 0.05034 / 0.05034)
+[2026-08-29 12:40:41 JST] INFO phase A: enc=c sigma_nu=0.01 m=8 done (theta off/on = 0.0877 / 0.0877)
+[2026-08-29 12:40:43 JST] INFO phase A: enc=c sigma_nu=0.01 m=16 done (theta off/on = 0.07107 / 0.07107)
+[2026-08-29 12:40:44 JST] INFO phase A: enc=c sigma_nu=0.01 m=32 done (theta off/on = 0.05329 / 0.05329)
+[2026-08-29 12:40:46 JST] INFO phase A: enc=c sigma_nu=0.02 m=8 done (theta off/on = 0.08725 / 0.08725)
+[2026-08-29 12:40:47 JST] INFO phase A: enc=c sigma_nu=0.02 m=16 done (theta off/on = 0.06665 / 0.06665)
+[2026-08-29 12:40:49 JST] INFO phase A: enc=c sigma_nu=0.02 m=32 done (theta off/on = 0.05447 / 0.05447)
+[2026-08-29 12:40:50 JST] INFO phase A: enc=c sigma_nu=0.04 m=8 done (theta off/on = 0.09141 / 0.09141)
+[2026-08-29 12:40:51 JST] INFO phase A: enc=c sigma_nu=0.04 m=16 done (theta off/on = 0.0691 / 0.0691)
+[2026-08-29 12:40:52 JST] INFO phase A: enc=c sigma_nu=0.04 m=32 done (theta off/on = 0.04945 / 0.04945)
+[2026-08-29 12:41:04 JST] INFO phase A: enc=c finished in 28.5 s; residuals_c.npz written (141.1 MB)
+[2026-08-29 12:41:10 JST] INFO figure written: fig1_fpr_vs_t_20260829_1239.pdf/.png (m=16)
+[2026-08-29 12:41:13 JST] INFO figure written: pflip_vs_t_20260829_1239.pdf/.png
+[2026-08-29 12:41:13 JST] INFO written: c2_slope_ranking.csv (72 rows)
+[2026-08-29 12:41:15 JST] INFO phase B: enc=a cond=sa0 d=0.00 done
+[2026-08-29 12:41:18 JST] INFO phase B: enc=a cond=sa1 d=0.00 done
+[2026-08-29 12:41:21 JST] INFO phase B: enc=a cond=soft d=0.10 done
+[2026-08-29 12:41:23 JST] INFO phase B: enc=a cond=soft d=0.25 done
+[2026-08-29 12:41:26 JST] INFO phase B: enc=a cond=soft d=0.50 done
+[2026-08-29 12:41:26 JST] INFO phase B: enc=a finished in 13.4 s
+[2026-08-29 12:41:30 JST] INFO phase B: enc=b cond=sa0 d=0.00 done
+[2026-08-29 12:41:35 JST] INFO phase B: enc=b cond=sa1 d=0.00 done
+[2026-08-29 12:41:39 JST] INFO phase B: enc=b cond=soft d=0.10 done
+[2026-08-29 12:41:43 JST] INFO phase B: enc=b cond=soft d=0.25 done
+[2026-08-29 12:41:45 JST] INFO phase B: enc=b cond=soft d=0.50 done
+[2026-08-29 12:41:45 JST] INFO phase B: enc=b finished in 19.4 s
+[2026-08-29 12:41:48 JST] INFO phase B: enc=c cond=sa0 d=0.00 done
+[2026-08-29 12:41:50 JST] INFO phase B: enc=c cond=sa1 d=0.00 done
+[2026-08-29 12:41:53 JST] INFO phase B: enc=c cond=soft d=0.10 done
+[2026-08-29 12:41:55 JST] INFO phase B: enc=c cond=soft d=0.25 done
+[2026-08-29 12:41:58 JST] INFO phase B: enc=c cond=soft d=0.50 done
+[2026-08-29 12:41:58 JST] INFO phase B: enc=c finished in 12.2 s
+[2026-08-29 12:41:58 JST] INFO written: summary.csv (918 rows)
+[2026-08-29 12:41:58 JST] INFO written: thresholds.csv (72 rows)
+[2026-08-29 12:41:58 JST] INFO E1 run 20260829_1239 complete in 127.3 s; every number above traces to D:\Project\PCM_DriftCheck\results\E1\20260829_1239

@@ -1,0 +1,6 @@
+read_verilog rtl/latch_bank.v
+chparam -set BY 8 -set LOGM 4 latch_bank
+synth -top latch_bank
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib

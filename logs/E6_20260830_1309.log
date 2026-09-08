@@ -1,0 +1,24 @@
+[2026-08-30 13:09:44 JST] INFO E6 run 20260830_1309 starting (smoke=False)
+[2026-08-30 13:09:45 JST] INFO ensemble ready: FS=29.981, q={6: 0.4684, 8: 0.1171, 10: 0.0293}
+[2026-08-30 13:10:29 JST] INFO Phase M: eps_f max 0.0178 (target 0.020, budget 0.067) -> PASS; predicted dFPR max 0.00133
+[2026-08-30 13:10:37 JST] INFO Phase F c1: 0 mismatches of 4000 -> PASS
+[2026-08-30 13:10:37 JST] INFO Phase F c3: 0 mismatches of 4000 -> PASS
+[2026-08-30 13:10:37 JST] INFO Phase F top: 0 mismatches of 4000 -> PASS
+[2026-08-30 13:10:37 JST] INFO Phase FPR: |bittrue-float| max 0.0042 on gate axis (8, 10) (gate 0.005) -> PASS; wrong-rho control at by=8, t>=1e6: ['0.00005', '0.00004', '0.00006']
+[2026-08-30 13:10:37 JST] INFO Phase FPR characterization rows outside tol (expected, scale-banding precondition violated): [(6, '1e+00', '-0.0067'), (6, '1e+01', '+0.0090'), (6, '1e+02', '+0.0223'), (6, '1e+03', '+0.0236'), (6, '1e+04', '+0.0264'), (6, '1e+05', '+0.0244'), (6, '1e+06', '+0.0210'), (6, '1e+07', '+0.0212'), (6, '1e+08', '+0.0204')]
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot sign_flip by=6: bittrue 0.011 vs float 0.097
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot sign_flip by=8: bittrue 0.040 vs float 0.097
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot sign_flip by=10: bittrue 0.083 vs float 0.097
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot soft_abs by=6: bittrue 0.007 vs float 0.066
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot soft_abs by=8: bittrue 0.021 vs float 0.066
+[2026-08-30 13:10:37 JST] INFO Phase FPR spot soft_abs by=10: bittrue 0.055 vs float 0.066
+[2026-08-30 13:10:47 JST] INFO Phase S drift_checker_8_4_c1: {'cells': 473, 'area_um2': 4989.7856}
+[2026-08-30 13:10:52 JST] INFO Phase S drift_checker_8_3_c1: {'cells': 292, 'area_um2': 2630.0224}
+[2026-08-30 13:10:54 JST] INFO Phase S drift_checker_8_5_c1: {'cells': 866, 'area_um2': 9859.456}
+[2026-08-30 13:10:56 JST] INFO Phase S drift_checker_6_4_c1: {'cells': 370, 'area_um2': 4012.5984}
+[2026-08-30 13:10:59 JST] INFO Phase S drift_checker_10_4_c1: {'cells': 606, 'area_um2': 6045.7984}
+[2026-08-30 13:11:03 JST] INFO Phase S drift_checker_8_4_c3: {'cells': 515, 'area_um2': 5377.6576}
+[2026-08-30 13:11:09 JST] INFO Phase S checker_top_8_4: {'cells': 736, 'area_um2': 6944.16}
+[2026-08-30 13:11:12 JST] INFO Phase S latch_bank_ref: {'area_um2': 2562.4576}
+[2026-08-30 13:11:16 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E6
+[2026-08-30 13:11:16 JST] INFO E6 run 20260830_1309 complete in 91.1 s; every number above traces to D:\Project\PCM_DriftCheck\results\E6\20260830_1309

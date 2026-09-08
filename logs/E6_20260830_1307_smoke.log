@@ -1,0 +1,15 @@
+[2026-08-30 13:07:10 JST] INFO E6 run 20260830_1307_smoke starting (smoke=True)
+[2026-08-30 13:07:11 JST] INFO ensemble ready: FS=26.601, q={8: 0.1039}
+[2026-08-30 13:07:48 JST] INFO Phase M: eps_f max 0.0200 (target 0.020, budget 0.067) -> PASS; predicted dFPR max 0.00149
+[2026-08-30 13:07:50 JST] INFO Phase F c1: 0 mismatches of 400 -> PASS
+[2026-08-30 13:07:50 JST] INFO Phase F c3: 0 mismatches of 400 -> PASS
+[2026-08-30 13:07:50 JST] INFO Phase F top: 0 mismatches of 400 -> PASS
+[2026-08-30 13:07:50 JST] INFO Phase FPR (smoke, informational): |bittrue-float| max 0.0059 on axis (8, 10); statistical gate 0.005 applies to the full run only; wrong-rho control at by=8, t>=1e6: ['0.00000']
+[2026-08-30 13:07:50 JST] INFO Phase FPR spot sign_flip by=8: bittrue 0.050 vs float 0.103
+[2026-08-30 13:07:50 JST] INFO Phase FPR spot soft_abs by=8: bittrue 0.038 vs float 0.062
+[2026-08-30 13:08:01 JST] INFO Phase S drift_checker_8_4_c1: {'cells': 473, 'area_um2': 4989.7856}
+[2026-08-30 13:08:06 JST] INFO Phase S drift_checker_8_4_c3: {'cells': 515, 'area_um2': 5377.6576}
+[2026-08-30 13:08:11 JST] INFO Phase S checker_top_8_4: {'cells': 740, 'area_um2': 7039.2512}
+[2026-08-30 13:08:13 JST] INFO Phase S latch_bank_ref: {'area_um2': 2562.4576}
+[2026-08-30 13:08:20 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E6
+[2026-08-30 13:08:20 JST] INFO E6 run 20260830_1307_smoke complete in 69.9 s; every number above traces to D:\Project\PCM_DriftCheck\results\E6\20260830_1307_smoke

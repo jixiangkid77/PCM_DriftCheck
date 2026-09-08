@@ -1,0 +1,7 @@
+[2026-08-30 01:50:11 JST] INFO E4 run 20260830_0150_smoke starting (smoke=True)
+[2026-08-30 01:50:12 JST] INFO config sigma=0.02 norm=on: theta0=0.06781 FS=26.60 q={6: 0.4156, 8: 0.1039, 10: 0.026}
+[2026-08-30 01:50:13 JST] INFO config sigma=0.02 norm=on done in 1.9 s
+[2026-08-30 01:50:13 JST] INFO written: fpr_compare.csv (15 rows), discrimination.csv (20 rows)
+[2026-08-30 01:50:13 JST] INFO one-decade FPR sigma=0.02 norm=on: {'A10': 0.9272, 'A6': 0.2838, 'A8': 0.7273, 'B_const': 0.6406, 'C_band': 0.0059}
+[2026-08-30 01:50:14 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E4
+[2026-08-30 01:50:14 JST] INFO E4 run 20260830_0150_smoke complete in 3.2 s; every number above traces to D:\Project\PCM_DriftCheck\results\E4\20260830_0150_smoke

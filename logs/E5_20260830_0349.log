@@ -1,0 +1,24 @@
+[2026-08-30 03:49:51 JST] INFO E5 run 20260830_0349 starting (smoke=False)
+[2026-08-30 03:49:52 JST] INFO model selftests PASS: {'cell': '2.44e-03', 'fault': '2.68e-03', 'signflip': '1.29e-02', 'pflip': '1.39e-02'} (tol 2.00e-02)
+[2026-08-30 03:49:52 JST] INFO audit enc=a kind=soft_abs: |diff| = 4.02e-15
+[2026-08-30 03:49:52 JST] INFO audit enc=a kind=sign_flip: |diff| = 1.86e-15
+[2026-08-30 03:49:52 JST] INFO audit enc=b kind=soft_abs: |diff| = 1.26e-17
+[2026-08-30 03:49:52 JST] INFO audit enc=b kind=sign_flip: |diff| = 2.78e-17
+[2026-08-30 03:49:52 JST] INFO audit enc=c kind=soft_abs: |diff| = 1.01e-16
+[2026-08-30 03:49:52 JST] INFO audit enc=c kind=sign_flip: |diff| = 3.82e-17
+[2026-08-30 03:49:52 JST] INFO shift-identity audit PASS: worst |diff| = 4.02e-15 over all rules
+[2026-08-30 03:49:55 JST] INFO enc a pools+calibration done (2.9 s), FPR range [0.0042, 0.0100]
+[2026-08-30 03:49:56 JST] INFO enc a fault classes done (3.8 s total)
+[2026-08-30 03:50:01 JST] INFO enc b pools+calibration done (5.2 s), FPR range [0.0100, 0.0133]
+[2026-08-30 03:50:11 JST] INFO enc b fault classes done (15.1 s total)
+[2026-08-30 03:50:12 JST] INFO enc c pools+calibration done (0.5 s), FPR range [0.0100, 0.0100]
+[2026-08-30 03:50:12 JST] INFO enc c fault classes done (0.6 s total)
+[2026-08-30 03:50:24 JST] INFO flip sigma=0.005: t_c model inf, empirical inf (12.6 s)
+[2026-08-30 03:50:36 JST] INFO flip sigma=0.01: t_c model 1.24e+04, empirical 1.028e+04 (12.0 s)
+[2026-08-30 03:50:49 JST] INFO flip sigma=0.02: t_c model 86.73, empirical 66.79 (12.3 s)
+[2026-08-30 03:51:01 JST] INFO flip sigma=0.04: t_c model 10.31, empirical 10.1 (12.1 s)
+[2026-08-30 03:51:01 JST] INFO verdict p1 (a/b, 90 points): median 0.0053 / p90 0.0132 / max 0.0185 / >tol 0
+[2026-08-30 03:51:01 JST] INFO verdict pflip (countable points, z test vs ref-ensemble SE): 37 within z<=2.5, 0 outside, max z 1.90
+[2026-08-30 03:51:01 JST] INFO written: p1_by_class.csv (135 rows), flip_rate.csv (68 rows), t_c.json
+[2026-08-30 03:51:04 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E5
+[2026-08-30 03:51:04 JST] INFO E5 run 20260830_0349 complete in 72.5 s; every number above traces to D:\Project\PCM_DriftCheck\results\E5\20260830_0349

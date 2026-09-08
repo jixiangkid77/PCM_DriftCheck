@@ -1,0 +1,49 @@
+[2026-08-30 01:24:05 JST] INFO E3 run 20260830_0124 starting (smoke=False)
+[2026-08-30 01:24:05 JST] INFO model selftests PASS: cell 5.40e-04, fault 5.03e-03 (tol 2.00e-02)
+[2026-08-30 01:24:15 JST] INFO config enc=b sigma=0.005 m=8 c=1 norm=on done in 9.4 s
+[2026-08-30 01:24:18 JST] INFO config enc=b sigma=0.005 m=8 c=2 norm=on done in 3.6 s
+[2026-08-30 01:24:22 JST] INFO config enc=b sigma=0.005 m=8 c=3 norm=on done in 3.5 s
+[2026-08-30 01:24:25 JST] INFO config enc=b sigma=0.005 m=16 c=1 norm=on done in 3.4 s
+[2026-08-30 01:24:29 JST] INFO config enc=b sigma=0.005 m=16 c=2 norm=on done in 3.6 s
+[2026-08-30 01:24:32 JST] INFO config enc=b sigma=0.005 m=16 c=3 norm=on done in 3.5 s
+[2026-08-30 01:24:36 JST] INFO config enc=b sigma=0.005 m=32 c=1 norm=on done in 3.5 s
+[2026-08-30 01:24:40 JST] INFO config enc=b sigma=0.005 m=32 c=2 norm=on done in 3.8 s
+[2026-08-30 01:24:43 JST] INFO config enc=b sigma=0.005 m=32 c=3 norm=on done in 3.6 s
+[2026-08-30 01:24:52 JST] INFO config enc=b sigma=0.01 m=8 c=1 norm=on done in 9.2 s
+[2026-08-30 01:24:56 JST] INFO config enc=b sigma=0.01 m=8 c=2 norm=on done in 3.6 s
+[2026-08-30 01:25:00 JST] INFO config enc=b sigma=0.01 m=8 c=3 norm=on done in 3.7 s
+[2026-08-30 01:25:03 JST] INFO config enc=b sigma=0.01 m=16 c=1 norm=on done in 3.5 s
+[2026-08-30 01:25:07 JST] INFO config enc=b sigma=0.01 m=16 c=2 norm=on done in 3.7 s
+[2026-08-30 01:25:11 JST] INFO config enc=b sigma=0.01 m=16 c=3 norm=on done in 3.6 s
+[2026-08-30 01:25:14 JST] INFO config enc=b sigma=0.01 m=32 c=1 norm=on done in 3.6 s
+[2026-08-30 01:25:18 JST] INFO config enc=b sigma=0.01 m=32 c=2 norm=on done in 3.8 s
+[2026-08-30 01:25:22 JST] INFO config enc=b sigma=0.01 m=32 c=3 norm=on done in 3.6 s
+[2026-08-30 01:25:32 JST] INFO config enc=b sigma=0.02 m=8 c=1 norm=on done in 10.0 s
+[2026-08-30 01:25:35 JST] INFO config enc=b sigma=0.02 m=8 c=2 norm=on done in 3.8 s
+[2026-08-30 01:25:39 JST] INFO config enc=b sigma=0.02 m=8 c=3 norm=on done in 3.8 s
+[2026-08-30 01:25:42 JST] INFO config enc=b sigma=0.02 m=16 c=1 norm=on done in 3.5 s
+[2026-08-30 01:25:43 JST] INFO sa reference curves done
+[2026-08-30 01:25:46 JST] INFO config enc=b sigma=0.02 m=16 c=2 norm=on done in 3.7 s
+[2026-08-30 01:25:50 JST] INFO config enc=b sigma=0.02 m=16 c=3 norm=on done in 3.6 s
+[2026-08-30 01:25:54 JST] INFO config enc=b sigma=0.02 m=32 c=1 norm=on done in 3.5 s
+[2026-08-30 01:25:57 JST] INFO config enc=b sigma=0.02 m=32 c=2 norm=on done in 3.9 s
+[2026-08-30 01:26:01 JST] INFO config enc=b sigma=0.02 m=32 c=3 norm=on done in 3.6 s
+[2026-08-30 01:26:11 JST] INFO config enc=b sigma=0.04 m=8 c=1 norm=on done in 10.0 s
+[2026-08-30 01:26:15 JST] INFO config enc=b sigma=0.04 m=8 c=2 norm=on done in 4.3 s
+[2026-08-30 01:26:19 JST] INFO config enc=b sigma=0.04 m=8 c=3 norm=on done in 3.7 s
+[2026-08-30 01:26:22 JST] INFO config enc=b sigma=0.04 m=16 c=1 norm=on done in 3.5 s
+[2026-08-30 01:26:26 JST] INFO config enc=b sigma=0.04 m=16 c=2 norm=on done in 3.7 s
+[2026-08-30 01:26:30 JST] INFO config enc=b sigma=0.04 m=16 c=3 norm=on done in 3.7 s
+[2026-08-30 01:26:33 JST] INFO config enc=b sigma=0.04 m=32 c=1 norm=on done in 3.5 s
+[2026-08-30 01:26:37 JST] INFO config enc=b sigma=0.04 m=32 c=2 norm=on done in 3.8 s
+[2026-08-30 01:26:41 JST] INFO config enc=b sigma=0.04 m=32 c=3 norm=on done in 3.6 s
+[2026-08-30 01:26:42 JST] INFO config enc=b sigma=0.02 m=16 c=1 norm=off done in 0.9 s
+[2026-08-30 01:26:47 JST] INFO config enc=a sigma=0.005 m=16 c=1 norm=on done in 5.0 s
+[2026-08-30 01:26:52 JST] INFO config enc=a sigma=0.01 m=16 c=1 norm=on done in 5.1 s
+[2026-08-30 01:26:57 JST] INFO config enc=a sigma=0.02 m=16 c=1 norm=on done in 5.1 s
+[2026-08-30 01:27:02 JST] INFO config enc=a sigma=0.04 m=16 c=1 norm=on done in 5.1 s
+[2026-08-30 01:27:02 JST] INFO written: dmin_grid.csv (369 rows, 82 flagged), p1_curves.csv (1130), fpr_backtest.csv (369)
+[2026-08-30 01:27:02 JST] INFO verdict d_min(N*=20): finite cells 5/369; |rel err| median 0.022 / p90 0.077 / max 0.088
+[2026-08-30 01:27:02 JST] INFO verdict FPR backtest: min 0.0013 / median 0.0102 / max 0.0939
+[2026-08-30 01:27:04 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E3
+[2026-08-30 01:27:04 JST] INFO E3 run 20260830_0124 complete in 179.0 s; every number above traces to D:\Project\PCM_DriftCheck\results\E3\20260830_0124

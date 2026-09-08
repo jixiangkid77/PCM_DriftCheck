@@ -1,0 +1,9 @@
+read_verilog rtl/drift_checker.v rtl/pwl_band.v rtl/checker_top.v
+chparam -set BY 10 -set LOGM 4 -set CSC 1 drift_checker
+hierarchy -top drift_checker
+synth -top drift_checker
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt_clean
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr synth/out/drift_checker_10_4_c1.v

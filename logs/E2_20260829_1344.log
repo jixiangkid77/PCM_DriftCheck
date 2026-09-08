@@ -1,0 +1,35 @@
+[2026-08-29 13:44:06 JST] INFO E2 run 20260829_1344 starting; source E1 run: 20260829_1239 (results\E1\20260829_1239)
+[2026-08-29 13:44:07 JST] INFO model MC selftest PASS: worst cell-moment rel err = 8.21e-04 (tol 1.00e-02)
+[2026-08-29 13:44:12 JST] INFO enc=a sigma_nu=0.005 done
+[2026-08-29 13:44:12 JST] INFO enc=a sigma_nu=0.005 done
+[2026-08-29 13:44:12 JST] INFO enc=a sigma_nu=0.005 done
+[2026-08-29 13:44:17 JST] INFO enc=a sigma_nu=0.01 done
+[2026-08-29 13:44:17 JST] INFO enc=a sigma_nu=0.01 done
+[2026-08-29 13:44:17 JST] INFO enc=a sigma_nu=0.01 done
+[2026-08-29 13:44:22 JST] INFO enc=a sigma_nu=0.02 done
+[2026-08-29 13:44:22 JST] INFO enc=a sigma_nu=0.02 done
+[2026-08-29 13:44:23 JST] INFO enc=a sigma_nu=0.02 done
+[2026-08-29 13:44:28 JST] INFO enc=a sigma_nu=0.04 done
+[2026-08-29 13:44:28 JST] INFO enc=a sigma_nu=0.04 done
+[2026-08-29 13:44:28 JST] INFO enc=a sigma_nu=0.04 done
+[2026-08-29 13:44:28 JST] INFO enc=a finished in 21.0 s
+[2026-08-29 13:44:35 JST] INFO enc=b sigma_nu=0.005 done
+[2026-08-29 13:44:35 JST] INFO enc=b sigma_nu=0.005 done
+[2026-08-29 13:44:35 JST] INFO enc=b sigma_nu=0.005 done
+[2026-08-29 13:44:42 JST] INFO enc=b sigma_nu=0.01 done
+[2026-08-29 13:44:42 JST] INFO enc=b sigma_nu=0.01 done
+[2026-08-29 13:44:42 JST] INFO enc=b sigma_nu=0.01 done
+[2026-08-29 13:44:49 JST] INFO enc=b sigma_nu=0.02 done
+[2026-08-29 13:44:49 JST] INFO enc=b sigma_nu=0.02 done
+[2026-08-29 13:44:49 JST] INFO enc=b sigma_nu=0.02 done
+[2026-08-29 13:44:56 JST] INFO enc=b sigma_nu=0.04 done
+[2026-08-29 13:44:56 JST] INFO enc=b sigma_nu=0.04 done
+[2026-08-29 13:44:56 JST] INFO enc=b sigma_nu=0.04 done
+[2026-08-29 13:44:56 JST] INFO enc=b finished in 28.3 s
+[2026-08-29 13:44:56 JST] INFO written: model_vs_data.csv (432 rows, 77 flagged)
+[2026-08-29 13:44:56 JST] INFO verdict enc=a: |sigma rel err| median 0.027 / p90 0.092 / max 0.262 ; |FPR err| median 0.004 / p90 0.023 / max 0.101
+[2026-08-29 13:44:56 JST] INFO verdict enc=b: |sigma rel err| median 0.048 / p90 0.106 / max 0.339 ; |FPR err| median 0.011 / p90 0.034 / max 0.052
+[2026-08-29 13:44:57 JST] INFO written: band_ratio.csv (norm on, m=16)
+[2026-08-29 13:44:59 JST] INFO figure written: fig_e2_model_vs_data_b_20260829_1344.pdf/.png
+[2026-08-29 13:44:59 JST] INFO figure written: fig_e2_mean_bias_a_20260829_1344.pdf/.png
+[2026-08-29 13:44:59 JST] INFO E2 run 20260829_1344 complete in 53.4 s; every number above traces to D:\Project\PCM_DriftCheck\results\E2\20260829_1344

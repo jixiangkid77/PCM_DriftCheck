@@ -1,0 +1,7 @@
+[2026-08-30 12:58:38 JST] INFO E6 run 20260830_1258_smoke starting (smoke=True)
+[2026-08-30 12:58:38 JST] INFO ensemble ready: FS=26.601, q={8: 0.1039}
+[2026-08-30 12:59:20 JST] INFO Phase M: eps_f max 0.0200 (target 0.020, budget 0.067) -> PASS; predicted dFPR max 0.00149
+[2026-08-30 12:59:24 JST] INFO Phase F c1: 0 mismatches of 400 -> PASS
+[2026-08-30 12:59:24 JST] INFO Phase F c3: 0 mismatches of 400 -> PASS
+[2026-08-30 12:59:24 JST] INFO Phase F top: 0 mismatches of 400 -> PASS
+[2026-08-30 12:59:24 JST] INFO Phase FPR: |bittrue-float| max 0.0059 on gate axis (8, 10) (gate 0.005) -> FAIL; wrong-rho control at by=8, t>=1e6: ['0.00000']

@@ -1,0 +1,9 @@
+[2026-08-30 01:22:58 JST] INFO E3 run 20260830_0122_smoke starting (smoke=True)
+[2026-08-30 01:22:59 JST] INFO model selftests PASS: cell 5.40e-04, fault 5.03e-03 (tol 2.00e-02)
+[2026-08-30 01:23:06 JST] INFO config enc=b sigma=0.02 m=16 c=1 norm=on done in 7.4 s
+[2026-08-30 01:23:08 JST] INFO config enc=b sigma=0.02 m=16 c=3 norm=on done in 2.0 s
+[2026-08-30 01:23:10 JST] INFO config enc=a sigma=0.02 m=16 c=1 norm=on done in 2.0 s
+[2026-08-30 01:23:10 JST] INFO written: dmin_grid.csv (12 rows, 8 flagged), p1_curves.csv (36), fpr_backtest.csv (12)
+[2026-08-30 01:23:10 JST] INFO verdict FPR backtest: min 0.0000 / median 0.0029 / max 0.0100
+[2026-08-30 01:23:13 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E3
+[2026-08-30 01:23:13 JST] INFO E3 run 20260830_0122_smoke complete in 14.9 s; every number above traces to D:\Project\PCM_DriftCheck\results\E3\20260830_0122_smoke

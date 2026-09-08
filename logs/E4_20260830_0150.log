@@ -1,0 +1,19 @@
+[2026-08-30 01:50:24 JST] INFO E4 run 20260830_0150 starting (smoke=False)
+[2026-08-30 01:50:25 JST] INFO config sigma=0.005 norm=on: theta0=0.06912 FS=26.85 q={6: 0.4195, 8: 0.1049, 10: 0.0262}
+[2026-08-30 01:50:30 JST] INFO config sigma=0.005 norm=on done in 6.1 s
+[2026-08-30 01:50:31 JST] INFO config sigma=0.01 norm=on: theta0=0.07364 FS=32.89 q={6: 0.5139, 8: 0.1285, 10: 0.0321}
+[2026-08-30 01:50:36 JST] INFO config sigma=0.01 norm=on done in 6.1 s
+[2026-08-30 01:50:37 JST] INFO config sigma=0.02 norm=on: theta0=0.07043 FS=29.98 q={6: 0.4684, 8: 0.1171, 10: 0.0293}
+[2026-08-30 01:50:42 JST] INFO config sigma=0.02 norm=on done in 5.9 s
+[2026-08-30 01:50:43 JST] INFO config sigma=0.04 norm=on: theta0=0.06503 FS=29.13 q={6: 0.4552, 8: 0.1138, 10: 0.0285}
+[2026-08-30 01:50:48 JST] INFO config sigma=0.04 norm=on done in 6.1 s
+[2026-08-30 01:50:49 JST] INFO config sigma=0.02 norm=off: theta0=0.07043 FS=29.98 q={6: 0.4684, 8: 0.1171, 10: 0.0293}
+[2026-08-30 01:50:49 JST] INFO config sigma=0.02 norm=off done in 0.5 s
+[2026-08-30 01:50:49 JST] INFO written: fpr_compare.csv (225 rows), discrimination.csv (150 rows)
+[2026-08-30 01:50:49 JST] INFO one-decade FPR sigma=0.005 norm=on: {'A10': 0.8176, 'A6': 0.1039, 'A8': 0.4066, 'B_const': 0.2052, 'C_band': 0.0057}
+[2026-08-30 01:50:49 JST] INFO one-decade FPR sigma=0.01 norm=on: {'A10': 0.7906, 'A6': 0.0952, 'A8': 0.3743, 'B_const': 0.2289, 'C_band': 0.0094}
+[2026-08-30 01:50:49 JST] INFO one-decade FPR sigma=0.02 norm=on: {'A10': 0.8405, 'A6': 0.133, 'A8': 0.4857, 'B_const': 0.3586, 'C_band': 0.0133}
+[2026-08-30 01:50:49 JST] INFO one-decade FPR sigma=0.04 norm=on: {'A10': 0.8943, 'A6': 0.1984, 'A8': 0.6186, 'B_const': 0.549, 'C_band': 0.018}
+[2026-08-30 01:50:49 JST] INFO one-decade FPR sigma=0.02 norm=off: {'A10': 0.8285, 'A6': 0.1246, 'A8': 0.4606, 'B_const': 0.3263, 'C_band': 0.0167}
+[2026-08-30 01:50:51 JST] INFO figures written to D:\Project\PCM_DriftCheck\figures\E4
+[2026-08-30 01:50:51 JST] INFO E4 run 20260830_0150 complete in 26.7 s; every number above traces to D:\Project\PCM_DriftCheck\results\E4\20260830_0150
