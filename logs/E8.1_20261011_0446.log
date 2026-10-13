@@ -1,0 +1,48 @@
+[2026-10-11 04:46:06 JST] INFO E8.1 run 20261011_0446 starting
+[2026-10-11 04:46:07 JST] INFO calibration cross-check against E8 record: MATCH
+[2026-10-11 04:46:09 JST] INFO t=1e+00 delta=0.30 abrupt T=0 W=64 C_band: margin n0=0.0053 W=0.0048 end=0.0058; excess alarms W=0.37 total=34.92
+[2026-10-11 04:46:09 JST] INFO t=1e+00 delta=0.30 abrupt T=0 W=64 O_g6: margin n0=0.0107 W=0.0010 end=0.0006; excess alarms W=0.35 total=-0.26
+[2026-10-11 04:46:09 JST] INFO t=1e+00 delta=0.30 abrupt T=0 W=64 O_p6: margin n0=0.0059 W=0.0046 end=0.0027; excess alarms W=0.33 total=15.17
+[2026-10-11 04:46:11 JST] INFO t=1e+00 delta=0.30 abrupt T=0 W=1024 O_g10: margin n0=0.0147 W=-0.0000 end=0.0002; excess alarms W=5.10 total=3.90
+[2026-10-11 04:46:11 JST] INFO t=1e+00 delta=0.30 abrupt T=0 W=1024 O_p10: margin n0=0.0048 W=0.0022 end=0.0028; excess alarms W=4.82 total=18.21
+[2026-10-11 04:46:13 JST] INFO t=1e+00 delta=0.30 ramp T=256 W=64 C_band: margin n0=0.0000 W=-0.0006 end=0.0058; excess alarms W=0.00 total=33.95
+[2026-10-11 04:46:13 JST] INFO t=1e+00 delta=0.30 ramp T=256 W=64 O_g6: margin n0=-0.0003 W=0.0001 end=0.0006; excess alarms W=0.01 total=-0.32
+[2026-10-11 04:46:13 JST] INFO t=1e+00 delta=0.30 ramp T=256 W=64 O_p6: margin n0=0.0001 W=0.0004 end=0.0027; excess alarms W=0.01 total=14.60
+[2026-10-11 04:46:15 JST] INFO t=1e+00 delta=0.30 ramp T=4096 W=1024 C_band: margin n0=0.0000 W=0.0007 end=0.0058; excess alarms W=0.09 total=18.85
+[2026-10-11 04:46:15 JST] INFO t=1e+00 delta=0.30 ramp T=4096 W=1024 O_g10: margin n0=-0.0000 W=-0.0004 end=0.0003; excess alarms W=0.16 total=3.25
+[2026-10-11 04:46:15 JST] INFO t=1e+00 delta=0.30 ramp T=4096 W=1024 O_p10: margin n0=0.0000 W=-0.0003 end=0.0029; excess alarms W=0.00 total=9.73
+[2026-10-11 04:46:17 JST] INFO t=1e+00 delta=0.95 abrupt T=0 W=64 C_band: margin n0=0.0543 W=0.0505 end=0.0547; excess alarms W=3.50 total=327.91
+[2026-10-11 04:46:17 JST] INFO t=1e+00 delta=0.95 abrupt T=0 W=64 O_g6: margin n0=0.0923 W=0.0035 end=-0.0018; excess alarms W=2.37 total=-10.61
+[2026-10-11 04:46:17 JST] INFO t=1e+00 delta=0.95 abrupt T=0 W=64 O_p6: margin n0=0.0623 W=0.0416 end=0.0309; excess alarms W=3.39 total=185.92
+[2026-10-11 04:46:19 JST] INFO t=1e+00 delta=0.95 abrupt T=0 W=1024 O_g10: margin n0=0.1392 W=0.0015 end=-0.0023; excess alarms W=36.54 total=26.43
+[2026-10-11 04:46:19 JST] INFO t=1e+00 delta=0.95 abrupt T=0 W=1024 O_p10: margin n0=0.0660 W=0.0402 end=0.0309; excess alarms W=53.88 total=217.59
+[2026-10-11 04:46:21 JST] INFO t=1e+00 delta=0.95 ramp T=256 W=64 C_band: margin n0=0.0001 W=0.0017 end=0.0547; excess alarms W=0.05 total=318.17
+[2026-10-11 04:46:21 JST] INFO t=1e+00 delta=0.95 ramp T=256 W=64 O_g6: margin n0=-0.0004 W=0.0023 end=-0.0018; excess alarms W=0.07 total=-11.02
+[2026-10-11 04:46:21 JST] INFO t=1e+00 delta=0.95 ramp T=256 W=64 O_p6: margin n0=0.0005 W=0.0035 end=0.0309; excess alarms W=0.07 total=179.85
+[2026-10-11 04:46:23 JST] INFO t=1e+00 delta=0.95 ramp T=4096 W=1024 C_band: margin n0=0.0000 W=0.0025 end=0.0547; excess alarms W=0.95 total=171.89
+[2026-10-11 04:46:23 JST] INFO t=1e+00 delta=0.95 ramp T=4096 W=1024 O_g10: margin n0=-0.0002 W=0.0022 end=-0.0016; excess alarms W=1.14 total=20.72
+[2026-10-11 04:46:23 JST] INFO t=1e+00 delta=0.95 ramp T=4096 W=1024 O_p10: margin n0=0.0000 W=0.0017 end=0.0324; excess alarms W=0.93 total=119.39
+[2026-10-11 04:46:26 JST] INFO t=1e+02 delta=0.30 abrupt T=0 W=64 C_band: margin n0=0.0007 W=-0.0001 end=0.0001; excess alarms W=0.02 total=0.24
+[2026-10-11 04:46:26 JST] INFO t=1e+02 delta=0.30 abrupt T=0 W=64 O_g6: margin n0=0.0006 W=0.0002 end=-0.0001; excess alarms W=0.03 total=0.31
+[2026-10-11 04:46:26 JST] INFO t=1e+02 delta=0.30 abrupt T=0 W=64 O_p6: margin n0=-0.0001 W=-0.0002 end=-0.0002; excess alarms W=-0.02 total=0.33
+[2026-10-11 04:46:28 JST] INFO t=1e+02 delta=0.30 abrupt T=0 W=1024 O_g10: margin n0=-0.0003 W=0.0008 end=-0.0000; excess alarms W=0.08 total=0.01
+[2026-10-11 04:46:28 JST] INFO t=1e+02 delta=0.30 abrupt T=0 W=1024 O_p10: margin n0=0.0006 W=0.0002 end=-0.0000; excess alarms W=0.09 total=0.34
+[2026-10-11 04:46:30 JST] INFO t=1e+02 delta=0.30 ramp T=256 W=64 C_band: margin n0=0.0000 W=0.0001 end=0.0001; excess alarms W=0.00 total=0.22
+[2026-10-11 04:46:30 JST] INFO t=1e+02 delta=0.30 ramp T=256 W=64 O_g6: margin n0=0.0000 W=0.0001 end=-0.0001; excess alarms W=-0.00 total=0.28
+[2026-10-11 04:46:30 JST] INFO t=1e+02 delta=0.30 ramp T=256 W=64 O_p6: margin n0=0.0000 W=0.0000 end=-0.0002; excess alarms W=-0.00 total=0.33
+[2026-10-11 04:46:31 JST] INFO t=1e+02 delta=0.30 ramp T=4096 W=1024 C_band: margin n0=0.0000 W=-0.0000 end=0.0001; excess alarms W=-0.00 total=0.09
+[2026-10-11 04:46:31 JST] INFO t=1e+02 delta=0.30 ramp T=4096 W=1024 O_g10: margin n0=0.0000 W=0.0000 end=-0.0000; excess alarms W=-0.03 total=0.02
+[2026-10-11 04:46:31 JST] INFO t=1e+02 delta=0.30 ramp T=4096 W=1024 O_p10: margin n0=0.0000 W=-0.0001 end=-0.0000; excess alarms W=-0.00 total=0.13
+[2026-10-11 04:46:34 JST] INFO t=1e+02 delta=0.95 abrupt T=0 W=64 C_band: margin n0=0.0015 W=0.0010 end=0.0013; excess alarms W=0.08 total=6.45
+[2026-10-11 04:46:34 JST] INFO t=1e+02 delta=0.95 abrupt T=0 W=64 O_g6: margin n0=0.0030 W=0.0003 end=-0.0003; excess alarms W=0.12 total=-0.57
+[2026-10-11 04:46:34 JST] INFO t=1e+02 delta=0.95 abrupt T=0 W=64 O_p6: margin n0=0.0022 W=0.0007 end=0.0008; excess alarms W=0.07 total=5.99
+[2026-10-11 04:46:35 JST] INFO t=1e+02 delta=0.95 abrupt T=0 W=1024 O_g10: margin n0=0.0030 W=0.0012 end=-0.0001; excess alarms W=1.47 total=1.26
+[2026-10-11 04:46:35 JST] INFO t=1e+02 delta=0.95 abrupt T=0 W=1024 O_p10: margin n0=0.0026 W=0.0011 end=0.0010; excess alarms W=1.75 total=7.00
+[2026-10-11 04:46:37 JST] INFO t=1e+02 delta=0.95 ramp T=256 W=64 C_band: margin n0=0.0001 W=-0.0002 end=0.0013; excess alarms W=0.01 total=6.26
+[2026-10-11 04:46:37 JST] INFO t=1e+02 delta=0.95 ramp T=256 W=64 O_g6: margin n0=0.0000 W=0.0002 end=-0.0003; excess alarms W=0.01 total=-0.56
+[2026-10-11 04:46:37 JST] INFO t=1e+02 delta=0.95 ramp T=256 W=64 O_p6: margin n0=0.0000 W=-0.0002 end=0.0008; excess alarms W=-0.00 total=5.85
+[2026-10-11 04:46:39 JST] INFO t=1e+02 delta=0.95 ramp T=4096 W=1024 C_band: margin n0=0.0000 W=-0.0000 end=0.0013; excess alarms W=0.01 total=3.54
+[2026-10-11 04:46:39 JST] INFO t=1e+02 delta=0.95 ramp T=4096 W=1024 O_g10: margin n0=0.0000 W=0.0005 end=0.0000; excess alarms W=0.02 total=1.22
+[2026-10-11 04:46:39 JST] INFO t=1e+02 delta=0.95 ramp T=4096 W=1024 O_p10: margin n0=0.0000 W=0.0000 end=0.0010; excess alarms W=0.12 total=4.23
+[2026-10-11 04:46:40 JST] INFO written: transient.csv (44 rows)
+[2026-10-11 04:46:40 JST] INFO E8.1 run 20261011_0446 complete in 34.4 s; every number above traces to /home/claude/work/PCM_DriftCheck/results/E8.1/20261011_0446

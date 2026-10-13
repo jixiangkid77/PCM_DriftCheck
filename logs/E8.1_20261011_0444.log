@@ -1,0 +1,48 @@
+[2026-10-11 04:44:30 JST] INFO E8.1 run 20261011_0444 starting
+[2026-10-11 04:44:31 JST] INFO calibration cross-check against E8 record: MATCH
+[2026-10-11 04:44:32 JST] INFO t=1e+00 delta=0.30 abrupt T=0 C_band: N50= N90= p_detect=0.4090
+[2026-10-11 04:44:32 JST] INFO t=1e+00 delta=0.30 abrupt T=0 O_g6: N50=87 N90= p_detect=0.7870
+[2026-10-11 04:44:32 JST] INFO t=1e+00 delta=0.30 abrupt T=0 O_p6: N50= N90= p_detect=0.4905
+[2026-10-11 04:44:33 JST] INFO t=1e+00 delta=0.30 abrupt T=0 O_g10: N50=86 N90= p_detect=0.8445
+[2026-10-11 04:44:33 JST] INFO t=1e+00 delta=0.30 abrupt T=0 O_p10: N50= N90= p_detect=0.4990
+[2026-10-11 04:44:34 JST] INFO t=1e+00 delta=0.30 ramp T=256 C_band: N50= N90= p_detect=0.4108
+[2026-10-11 04:44:34 JST] INFO t=1e+00 delta=0.30 ramp T=256 O_g6: N50=114 N90= p_detect=0.7887
+[2026-10-11 04:44:34 JST] INFO t=1e+00 delta=0.30 ramp T=256 O_p6: N50= N90= p_detect=0.4918
+[2026-10-11 04:44:35 JST] INFO t=1e+00 delta=0.30 ramp T=4096 C_band: N50= N90= p_detect=0.4402
+[2026-10-11 04:44:36 JST] INFO t=1e+00 delta=0.30 ramp T=4096 O_g10: N50=135 N90= p_detect=0.8360
+[2026-10-11 04:44:36 JST] INFO t=1e+00 delta=0.30 ramp T=4096 O_p10: N50=4598 N90= p_detect=0.5130
+[2026-10-11 04:44:37 JST] INFO t=1e+00 delta=0.95 abrupt T=0 C_band: N50=196 N90= p_detect=0.6607
+[2026-10-11 04:44:37 JST] INFO t=1e+00 delta=0.95 abrupt T=0 O_g6: N50=27 N90= p_detect=0.8810
+[2026-10-11 04:44:37 JST] INFO t=1e+00 delta=0.95 abrupt T=0 O_p6: N50=122 N90= p_detect=0.6947
+[2026-10-11 04:44:38 JST] INFO t=1e+00 delta=0.95 abrupt T=0 O_g10: N50=24 N90=2159 p_detect=0.9203
+[2026-10-11 04:44:38 JST] INFO t=1e+00 delta=0.95 abrupt T=0 O_p10: N50=126 N90= p_detect=0.6987
+[2026-10-11 04:44:39 JST] INFO t=1e+00 delta=0.95 ramp T=256 C_band: N50=354 N90= p_detect=0.6645
+[2026-10-11 04:44:39 JST] INFO t=1e+00 delta=0.95 ramp T=256 O_g6: N50=102 N90= p_detect=0.8213
+[2026-10-11 04:44:39 JST] INFO t=1e+00 delta=0.95 ramp T=256 O_p6: N50=286 N90= p_detect=0.6957
+[2026-10-11 04:44:40 JST] INFO t=1e+00 delta=0.95 ramp T=4096 C_band: N50=3016 N90= p_detect=0.6897
+[2026-10-11 04:44:40 JST] INFO t=1e+00 delta=0.95 ramp T=4096 O_g10: N50=135 N90= p_detect=0.8765
+[2026-10-11 04:44:40 JST] INFO t=1e+00 delta=0.95 ramp T=4096 O_p10: N50=2264 N90= p_detect=0.7083
+[2026-10-11 04:44:42 JST] INFO t=1e+02 delta=0.30 abrupt T=0 C_band: N50= N90= p_detect=0.2410
+[2026-10-11 04:44:42 JST] INFO t=1e+02 delta=0.30 abrupt T=0 O_g6: N50=76 N90= p_detect=0.7917
+[2026-10-11 04:44:42 JST] INFO t=1e+02 delta=0.30 abrupt T=0 O_p6: N50= N90= p_detect=0.4615
+[2026-10-11 04:44:43 JST] INFO t=1e+02 delta=0.30 abrupt T=0 O_g10: N50=82 N90= p_detect=0.7870
+[2026-10-11 04:44:43 JST] INFO t=1e+02 delta=0.30 abrupt T=0 O_p10: N50= N90= p_detect=0.4602
+[2026-10-11 04:44:44 JST] INFO t=1e+02 delta=0.30 ramp T=256 C_band: N50= N90= p_detect=0.2412
+[2026-10-11 04:44:44 JST] INFO t=1e+02 delta=0.30 ramp T=256 O_g6: N50=76 N90= p_detect=0.7917
+[2026-10-11 04:44:44 JST] INFO t=1e+02 delta=0.30 ramp T=256 O_p6: N50= N90= p_detect=0.4615
+[2026-10-11 04:44:45 JST] INFO t=1e+02 delta=0.30 ramp T=4096 C_band: N50= N90= p_detect=0.2442
+[2026-10-11 04:44:45 JST] INFO t=1e+02 delta=0.30 ramp T=4096 O_g10: N50=92 N90= p_detect=0.7860
+[2026-10-11 04:44:45 JST] INFO t=1e+02 delta=0.30 ramp T=4096 O_p10: N50= N90= p_detect=0.4645
+[2026-10-11 04:44:46 JST] INFO t=1e+02 delta=0.95 abrupt T=0 C_band: N50= N90= p_detect=0.2590
+[2026-10-11 04:44:46 JST] INFO t=1e+02 delta=0.95 abrupt T=0 O_g6: N50=71 N90= p_detect=0.7830
+[2026-10-11 04:44:46 JST] INFO t=1e+02 delta=0.95 abrupt T=0 O_p6: N50= N90= p_detect=0.4700
+[2026-10-11 04:44:47 JST] INFO t=1e+02 delta=0.95 abrupt T=0 O_g10: N50=76 N90= p_detect=0.7935
+[2026-10-11 04:44:47 JST] INFO t=1e+02 delta=0.95 abrupt T=0 O_p10: N50= N90= p_detect=0.4688
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=256 C_band: N50= N90= p_detect=0.2600
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=256 O_g6: N50=76 N90= p_detect=0.7843
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=256 O_p6: N50= N90= p_detect=0.4710
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=4096 C_band: N50= N90= p_detect=0.2682
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=4096 O_g10: N50=89 N90= p_detect=0.7875
+[2026-10-11 04:44:49 JST] INFO t=1e+02 delta=0.95 ramp T=4096 O_p10: N50= N90= p_detect=0.4745
+[2026-10-11 04:44:50 JST] INFO written: transient.csv (44 rows)
+[2026-10-11 04:44:50 JST] INFO E8.1 run 20261011_0444 complete in 20.9 s; every number above traces to /home/claude/work/PCM_DriftCheck/results/E8.1/20261011_0444

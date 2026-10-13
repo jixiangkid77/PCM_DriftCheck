@@ -1,15 +1,16 @@
-"""Build the figures of the PCM_DriftCheck brief (TCAS-II).
+"""Build the figures of the PCM_DriftCheck brief (IEEE TC brief contribution).
 
 Location (frozen by E1_Design_Spec section 1):
     D:\\Project\\PCM_DriftCheck\\figures\\make_paper_figs.py
 Figures are written next to this script unless --out says otherwise, and are
-named fig1_construction.pdf through fig7_transition.pdf (plus .png), by figure number in the brief.
+named fig1_construction.pdf through fig8_transition.pdf (plus .png), by figure number in the brief.
 
 Usage (KID, formal records):
     python figures\\make_paper_figs.py ^
         --e1 results\\E1\\20260829_1239 --e2 results\\E2\\20260829_1344 ^
         --e3 results\\E3\\20260830_0124 --e4 results\\E4\\20260830_0150 ^
-        --e5 results\\E5\\20260830_0349 --e6 results\\E6\\20260830_1309
+        --e5 results\\E5\\20260830_0349 --e6 results\\E6\\20260830_1309 ^
+        --e81 results\\E8.1\\20261011_0459
 
 One figure only (fig1_construction needs no record; it is a schematic):
     python figures\\make_paper_figs.py --only fig1_construction
@@ -21,7 +22,9 @@ Outputs, named by figure number as they appear in the brief:
     fig4_validation  variance-law validation and budget backtest   (E2 + E3)
     fig5_n90  detection latency over (t, sigma_nu)          (E3)
     fig6_motivation  the three decision rules                      (E4)
-    fig7_transition  sign-flip confusability edge                  (E5)
+    fig7_masking  excess alarms after a fault appears, band vs online
+                  variance-adaptive thresholds                   (E8.1)
+    fig8_transition  sign-flip confusability edge                  (E5)
 Record directories are required only for the figures actually selected.
 """
 from __future__ import annotations
@@ -514,8 +517,8 @@ def fig2_residual_law(e1, out):
 
 
 # ---------------------------------------------------------------- E5 figure
-def fig7_transition(e5, out):
-    """Fig. 7: the sign-flip confusability edge (E5 formal record).
+def fig8_transition(e5, out):
+    """Fig. 8: the sign-flip confusability edge (E5 formal record).
 
     (a) Lawful per-cell flip probability C(t). (b) Per-group contamination
     against the share kappa * FPR0 that the budget allows it to consume;
@@ -581,7 +584,54 @@ def fig7_transition(e5, out):
                columnspacing=1.0, handlelength=1.6, handletextpad=0.3,
                borderpad=0.0)
     fig.tight_layout(pad=0.12, w_pad=0.5, rect=(0, 0, 1, 0.90))
-    _save(fig, out, "fig7_transition")
+    _save(fig, out, "fig8_transition")
+
+
+def fig7_masking(e81, out):
+    """Fig. 7: what a persistent fault adds to the alarm rate (E8.1 record).
+
+    Slice: encoding b, m = 16, c = 1, sigma_nu = 0.02, ratio readout, t = t0,
+    full-scale soft deviation (delta = 0.95) appearing at inference 0. Each
+    curve is the per-inference alarm rate of the faulty stream minus that of
+    the healthy stream of the same group under the same rule, averaged over
+    the 4000 E4/E8 fault trials. The online estimators start from their
+    healthy steady state. Log-spaced bins average the per-inference values so
+    that sampling noise (about 0.002 per inference) does not hide the trend;
+    the time constants 2^6 and 2^10 are marked.
+    """
+    z = np.load(os.path.join(e81, "excess_traj.npz"))
+    key = "t1_d0.95_abrupt_T0_%s"
+    series = [("C_band", None, "C0", "-", 1.6),
+              ("O_g6", "online per group, $2^6$", "#2ca02c", ":", 1.0),
+              ("O_g10", "online per group, $2^{10}$", "#2ca02c", "-", 1.0),
+              ("O_p6", "online per array, $2^6$", "#9467bd", ":", 1.0),
+              ("O_p10", "online per array, $2^{10}$", "#9467bd", "-", 1.0)]
+    n_all = z[key % "C_band"].size
+    edges = np.unique(np.round(np.logspace(0, np.log10(n_all), 34)).astype(int))
+    fig, ax = plt.subplots(figsize=(3.3, 1.34))
+    for name, lab, col, ls, lw in series:
+        y = z[key % name]
+        xm, ym = [], []
+        for a, b in zip(edges[:-1], edges[1:]):
+            xm.append(np.sqrt(a * b))
+            ym.append(float(y[a - 1:b - 1].mean()))
+        ax.plot(xm, ym, ls=ls, color=col, lw=lw, label=lab)
+    ax.text(2.6e3, 0.064, "band", color="C0", fontsize=5.6, ha="center", va="bottom")
+    ax.axhline(0.0, color="k", lw=0.6)
+    for w in (64, 1024):
+        ax.axvline(w, color="0.55", lw=0.6, ls="--")
+    ax.set_xscale("log")
+    ax.set_xlim(1, n_all)
+    ax.set_ylim(-0.02, 0.16)
+    ax.set_xticks([1, 10, 100, 1000])
+    ax.set_xlabel("inferences since the fault appeared")
+    ax.set_ylabel("excess alarm rate")
+    handles, labels = ax.get_legend_handles_labels()
+    ax.legend(handles, labels, fontsize=5.2, frameon=False, loc="lower center",
+              ncols=2, columnspacing=1.2, handlelength=1.8, handletextpad=0.3,
+              labelspacing=0.15, borderpad=0.0, bbox_to_anchor=(0.5, 1.0))
+    fig.tight_layout(pad=0.12)
+    _save(fig, out, "fig7_masking")
 
 
 # ---------------------------------------------------------------- E6 figure
@@ -654,13 +704,14 @@ FIGURES = {                      # figure name -> (builder, required records)
                           ("e2", "e3")),
     "fig5_n90":          (lambda a: fig5_n90(a.e3, a.out), ("e3",)),
     "fig6_motivation":   (lambda a: fig6_motivation(a.e4, a.out), ("e4",)),
-    "fig7_transition":   (lambda a: fig7_transition(a.e5, a.out), ("e5",)),
+    "fig7_masking":      (lambda a: fig7_masking(a.e81, a.out), ("e81",)),
+    "fig8_transition":   (lambda a: fig8_transition(a.e5, a.out), ("e5",)),
     "fig_val_n90":       (lambda a: fig_val_n90(a.e2, a.e3, a.out),
                           ("e2", "e3")),   # retained, not placed in the brief
 }
 PAPER_ORDER = ["fig1_construction", "fig2_residual_law", "fig3_checker",
                "fig4_validation", "fig5_n90", "fig6_motivation",
-               "fig7_transition"]
+               "fig7_masking", "fig8_transition"]
 
 
 def main():
@@ -668,13 +719,14 @@ def main():
         description="Build the PCM_DriftCheck brief figures. Record "
                     "directories are required only for the figures selected; "
                     "fig1_construction is data free.")
-    for k in ("e1", "e2", "e3", "e4", "e5", "e6"):
+    for k in ("e1", "e2", "e3", "e4", "e5", "e6", "e81"):
         ap.add_argument("--" + k, default=None,
-                        help="path to the formal %s record directory" % k.upper())
+                        help="path to the formal %s record directory"
+                             % ("E8.1" if k == "e81" else k.upper()))
     ap.add_argument("--out", default=os.path.dirname(os.path.abspath(__file__)),
                     help="output directory (default: this script's directory)")
     ap.add_argument("--only", nargs="+", default=None, choices=sorted(FIGURES),
-                    help="build only these figures (default: the seven in the "
+                    help="build only these figures (default: the eight in the "
                          "brief)")
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)

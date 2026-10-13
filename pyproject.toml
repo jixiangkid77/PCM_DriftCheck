@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcm_drift"
+version = "0.3.2"
+description = "Simulation library of the PCM_DriftCheck experiments"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "matplotlib", "pandas"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,9 @@
+read_verilog rtl/online_checker.v
+chparam -set BY 8 -set LOGM 4 -set S 10 -set KF 6 -set K2 332 online_checker
+hierarchy -top online_checker
+synth -top online_checker
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt_clean
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr synth/out/online_checker_8_4_s10.v

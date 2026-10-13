@@ -1,0 +1,14 @@
+[2026-10-11 04:54:16 JST] INFO E8.2 run 20261011_0454 starting; variants [('online_checker', 6, 339, 2.30007711264994), ('online_array', 6, 383, 2.4465337044266597), ('online_checker_l1', 6, 184, 2.8827191621999857), ('online_checker', 10, 332, 2.278075895999586), ('online_array', 10, 383, 2.4447923023784814), ('online_checker_l1', 10, 183, 2.855144726333956)]
+[2026-10-11 04:54:16 JST] INFO Phase F online_checker_s6: 0 mismatches of 4000 vectors, alarms rtl 107 / ref 107 -> PASS
+[2026-10-11 04:54:18 JST] INFO Phase F online_array_s6: 0 mismatches of 4000 vectors, alarms rtl 755 / ref 755 -> PASS
+[2026-10-11 04:54:18 JST] INFO Phase F online_checker_l1_s6: 0 mismatches of 4000 vectors, alarms rtl 133 / ref 133 -> PASS
+[2026-10-11 04:54:18 JST] INFO Phase F online_checker_s10: 0 mismatches of 4000 vectors, alarms rtl 113 / ref 113 -> PASS
+[2026-10-11 04:54:20 JST] INFO Phase F online_array_s10: 0 mismatches of 4000 vectors, alarms rtl 754 / ref 754 -> PASS
+[2026-10-11 04:54:20 JST] INFO Phase F online_checker_l1_s10: 0 mismatches of 4000 vectors, alarms rtl 124 / ref 124 -> PASS
+[2026-10-11 04:54:23 JST] INFO Phase S online_checker_8_4_s6: cells 2154, area 17481.7664 um2, 4657.3 GE, 4657.3 GE per 16-column group
+[2026-10-11 04:54:38 JST] INFO Phase S online_array_8_4_s6: cells 10295, area 91312.5760 um2, 24326.7 GE, 3040.8 GE per 16-column group
+[2026-10-11 04:54:40 JST] INFO Phase S online_checker_l1_8_4_s6: cells 979, area 8644.5408 um2, 2303.0 GE, 2303.0 GE per 16-column group
+[2026-10-11 04:54:42 JST] INFO Phase S online_checker_8_4_s10: cells 2137, area 16852.4128 um2, 4489.7 GE, 4489.7 GE per 16-column group
+[2026-10-11 04:54:59 JST] INFO Phase S online_array_8_4_s10: cells 10334, area 91445.2032 um2, 24362.0 GE, 3045.2 GE per 16-column group
+[2026-10-11 04:55:01 JST] INFO Phase S online_checker_l1_8_4_s10: cells 1243, area 10552.6208 um2, 2811.3 GE, 2811.3 GE per 16-column group
+[2026-10-11 04:55:01 JST] INFO E8.2 run 20261011_0454 complete in 45.2 s; every number above traces to /home/claude/work/PCM_DriftCheck/results/E8.2/20261011_0454

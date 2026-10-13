@@ -1,0 +1,10 @@
+[2026-10-11 04:52:50 JST] INFO E8.2 run 20261011_0452 starting; variants [('online_checker', 6, 339, 2.30007711264994), ('online_array', 6, 383, 2.4465337044266597), ('online_checker', 10, 332, 2.278075895999586), ('online_array', 10, 383, 2.4447923023784814)]
+[2026-10-11 04:52:50 JST] INFO Phase F online_checker_s6: 0 mismatches of 4000 vectors, alarms rtl 107 / ref 107 -> PASS
+[2026-10-11 04:52:52 JST] INFO Phase F online_array_s6: 0 mismatches of 4000 vectors, alarms rtl 755 / ref 755 -> PASS
+[2026-10-11 04:52:52 JST] INFO Phase F online_checker_s10: 0 mismatches of 4000 vectors, alarms rtl 97 / ref 97 -> PASS
+[2026-10-11 04:52:54 JST] INFO Phase F online_array_s10: 0 mismatches of 4000 vectors, alarms rtl 758 / ref 758 -> PASS
+[2026-10-11 04:52:57 JST] INFO Phase S online_checker_8_4_s6: cells 2154, area 17481.7664 um2, 4657.3 GE, 4657.3 GE per 16-column group
+[2026-10-11 04:53:12 JST] INFO Phase S online_array_8_4_s6: cells 10295, area 91312.5760 um2, 24326.7 GE, 3040.8 GE per 16-column group
+[2026-10-11 04:53:14 JST] INFO Phase S online_checker_8_4_s10: cells 2137, area 16852.4128 um2, 4489.7 GE, 4489.7 GE per 16-column group
+[2026-10-11 04:53:30 JST] INFO Phase S online_array_8_4_s10: cells 10334, area 91445.2032 um2, 24362.0 GE, 3045.2 GE per 16-column group
+[2026-10-11 04:53:30 JST] INFO E8.2 run 20261011_0452 complete in 40.2 s; every number above traces to /home/claude/work/PCM_DriftCheck/results/E8.2/20261011_0452
